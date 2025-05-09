@@ -1,0 +1,57 @@
+body{
+    margin-left: 5px;
+}
+.navbar{
+    height: 70px;
+    background-color: rgb(226, 179, 179);
+    padding-top: 8px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: #530101;
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+.navbar li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(63, 20, 61);
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.poster1{
+    display: block;
+    text-align: center;
+}
+.poster img{
+    display: flex;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+.poster p{
+    display: flex;
+    width: 290px;
+    word-wrap: break-word;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+.poster h4{
+    display: block;
+}
